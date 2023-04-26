@@ -5,7 +5,7 @@ const en: LocaleType = {
   WIP: "WIP...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in settings page.",
+      "Unauthorized access, please enter access code or OpenAI API KEY in settings page. Need buy a KEY? add wechat: 532234600 ",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
