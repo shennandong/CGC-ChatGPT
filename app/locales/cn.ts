@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/config";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请点击左下角设置按钮输入访问密码。",
+    Unauthorized: "现在是未授权状态。请点击页面左下方“设置”按钮进入页面填写访问密码或者API KEY，如需要购买Key 请加微信：532234600 ",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -121,7 +121,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
+      SubTitle: "输入Key则不需要访问密码。如果没有Key，可加微信 532234600 购买。",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
@@ -155,16 +155,16 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    Error: "出错了，稍后重试吧。有问题也可以找微信：532234600 ",
     Prompt: {
       History: (content: string) =>
-        "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
+        "这是 ChatGPT 和用户的历史聊天总结作为前情提要：" + content,
       Topic:
         "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
       Summarize:
-        "简要总结一下你和用户的对话，用作后续的上下文提示 prompt，控制在 200 字以内",
+        "简要总结一下你和用户的对话，用作后续的上下文提示 prompt（提示词），控制在 200 字以内",
     },
-    ConfirmClearAll: "确认清除所有聊天、设置数据？",
+    ConfirmClearAll: "确认清除所有聊天、设置数据？（不可恢复）",
   },
   Copy: {
     Success: "已写入剪切板",
