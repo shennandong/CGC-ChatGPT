@@ -10,9 +10,9 @@ export enum SubmitKey {
 }
 
 export enum Theme {
-  Auto = "auto",
-  Dark = "dark",
-  Light = "light",
+  Auto = "自动",
+  Dark = "暗黑",
+  Light = "亮白",
 }
 
 const DEFAULT_CONFIG = {
