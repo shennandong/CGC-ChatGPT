@@ -13,7 +13,7 @@ const cn = {
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
-      Export: "导出聊天记录",
+      Export: "导出对话记录",
       Copy: "复制",
       Stop: "停止",
       Retry: "重试",
@@ -46,7 +46,7 @@ const cn = {
     ResetConfirm: "重置后将清空当前对话记录以及历史摘要，确认重置？",
   },
   Home: {
-    NewChat: "新的聊天",
+    NewChat: "新的对话",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
@@ -62,7 +62,7 @@ const cn = {
         Confirm: "确认清除所有配置？",
       },
       ConfirmClearAll: {
-        Confirm: "确认清除所有聊天记录？",
+        Confirm: "确认清除所有对话记录？",
       },
     },
     Lang: {
@@ -93,7 +93,7 @@ const cn = {
       GoToUpdate: "目前最新版本",
     },
     SendKey: "发送键",
-    Theme: "主题",
+    Theme: "界面主题",
     TightBorder: "无边框模式",
     SendPreviewBubble: "发送预览气泡",
     Prompt: {
@@ -121,11 +121,11 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "输入Key则不需要访问密码。如果没有Key，可加微信 532234600 购买。",
+      SubTitle: "输入Key则不需要访问密码。如果没有Key，可加微信 532234600 购买。注意检查KEY是否录入正确（ sk开头）。",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
-      Title: "余额查询",
+      Title: "额度查询",
       SubTitle(used: any, total: any) {
         return `本月已使用 $${used}，订阅总额 $${total}`;
       },
@@ -141,7 +141,7 @@ const cn = {
     Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
-      SubTitle: "值越大，回复越随机，大于 1 的值可能会导致乱码",
+      SubTitle: "建议0.6，0最精确简短，1天马行空极具创意，大于 1 的值可能会导致乱码",
     },
     MaxTokens: {
       Title: "单次回复限制 (max_tokens)",
@@ -153,8 +153,8 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    DefaultTopic: "新的对话",
+    BotHello: "欢迎来到 ChatGPT社区，请提交问题。",
     Error: "出错了，稍后重试吧。有问题也可以找微信：532234600 ",
     Prompt: {
       History: (content: string) =>
