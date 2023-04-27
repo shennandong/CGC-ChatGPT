@@ -31,8 +31,8 @@ const DEFAULT_CONFIG = {
 
   modelConfig: {
     model: "gpt-3.5-turbo" as ModelType,
-    temperature: 1,
-    max_tokens: 2000,
+    temperature: 0.6,
+    max_tokens: 1000,
     presence_penalty: 0,
   },
 };
