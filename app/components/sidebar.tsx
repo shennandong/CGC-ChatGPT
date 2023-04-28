@@ -101,9 +101,7 @@ ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的�
           <br />
         </div>
         <div className={styles["aimomentwechat"]}>
-          <a href="https://www.woto.cn">
            <CgcWechat />
-         </a>
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
