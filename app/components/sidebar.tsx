@@ -9,7 +9,7 @@ import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import Locale from "../locales";
-import Cgc_Wechat from "../icons/aimomentwechat.svg";
+import CgcWechat from "../icons/aimomentwechat.svg";
 
 import { useAppConfig, useChatStore } from "../store";
 
@@ -98,8 +98,8 @@ ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的�
           <br />
           <br />
         </div>
-        <div>
-          <Cgc_Wechat className={styles["aimomentwechat"]} />
+        <div className={styles["aimomentwechat"]}>
+          <CgcWechat />
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
