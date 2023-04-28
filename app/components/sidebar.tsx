@@ -9,6 +9,7 @@ import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import Locale from "../locales";
+import cgc_wechat from "../icons/cgc_wechat.jpg";
 
 import { useAppConfig, useChatStore } from "../store";
 
@@ -96,7 +97,9 @@ export function SideBar(props: { className?: string }) {
 ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的工作效率。你想部署国内环境直接可用的ChatGPT吗？联系微信：532234600
           <br />
           <br />
-          <img src="http://us.anmody.com/static/qrcode.png" alt="部署同款网站，免费服务器，免费SSL，免费CDN全球分发，自备域名或免费域名，仅需499元。" width="60" height="60" />
+        <dir className={styles["cgc_wechat-photo"]}>
+          <cgc_wechat />
+          </div>
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
