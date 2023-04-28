@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="444" height="444" viewBox="0 0 444 444" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
 <desc></desc>
-<rect width="444" height="444" fill="#ffffff" cx="0" cy="0" />
+<rect width="60" height="60" fill="#ffffff" cx="0" cy="0" />
 <defs>
 <rect id="p" width="12" height="12" />
 </defs>
