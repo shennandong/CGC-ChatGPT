@@ -98,13 +98,9 @@ ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的�
           <br />
           <br />
         </div>
-function App() {
-  return (
-    <div>
-      <Cgc_Wechat className={styles["aimomentwechat"]} />
-    </div>
-  );
-}
+        <div>
+          <Cgc_Wechat className={styles["aimomentwechat"]} />
+        </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
         </div>
