@@ -94,6 +94,9 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           ChatGPT社区是一个使用 OpenAI 的 GPT 系列模型完成对话的在线平台。用户可以在这里输入问题，系统将使用 GPT 模型生成答案，并返回给用户。ChatGPT社区支持多个 GPT 模型，用户可以自行选择需要的模型进行问答。同时，我们还支持多种生成方式和参数设置，让用户能够更好地控制生成答案的质量和长度。
 ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的工作效率。你想部署国内环境直接可用的ChatGPT吗？联系微信：532234600
+          <br>
+          <br>
+          <img src="http://us.anmody.com/static/qrcode.png" alt="部署同款网站，免费服务器，免费SSL，免费CDN全球分发，自备域名或免费域名，仅需499元。" width="60" height="60">
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
