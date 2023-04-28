@@ -9,7 +9,7 @@ import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import Locale from "../locales";
-import cgc_wechat from "../icons/cgc_wechat.jpg";
+import Cgc_Wechat from "../icons/aimomentwechat.svg";
 
 import { useAppConfig, useChatStore } from "../store";
 
@@ -97,7 +97,9 @@ export function SideBar(props: { className?: string }) {
 ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的工作效率。你想部署国内环境直接可用的ChatGPT吗？联系微信：532234600
           <br />
           <br />
-          <img src={cgc_wechat} alt="Aimoment" style={{ width: '60px', height: '60px' }} />
+          <div className={styles["aimomentwechat"]}>
+            <Cgc_Wechat />
+          </div>
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
