@@ -97,11 +97,11 @@ export function SideBar(props: { className?: string }) {
 ChatGPT社区的目标是帮助用户更高效地获取答案，提高用户的工作效率。你想部署国内环境直接可用的ChatGPT吗？联系微信：532234600
           <br />
           <br />
-          扫码领取免费Key
+          扫码领取免费访问密码
           <br />
         </div>
         <div className={styles["aimomentwechat"]}>
-           <a href="https://mp.weixin.qq.com/s/xBkKPJY8V-4hmSWH5v53tg">
+           <a href="https://mp.weixin.qq.com/s/UoZsriU0B1wzL1rMqEeACQ">
         <CgcWechat />
         </a>
         </div>
