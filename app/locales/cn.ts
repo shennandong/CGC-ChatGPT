@@ -1,9 +1,10 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "该功能仍在开发中……如需要部署同款网站，请联系微信：532234600。",
   Error: {
-    Unauthorized: "现在是未授权状态。请点击页面左下方“设置”按钮进入页面填写API KEY(加微信 532234600 拿免费KEY），如需要独立部署同款，请加微信：532234600 ",
+    Unauthorized:
+      "如需开展对话，请点击左下角[设置](/#/settings)按钮输入访问密码或者填写API KEY。如需要部署同款网站，联系微信：532234600",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
