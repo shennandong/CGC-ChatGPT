@@ -4,7 +4,7 @@ import type { LocaleType } from "./index";
 const tw: LocaleType = {
   WIP: "該功能仍在開發中……",
   Error: {
-    Unauthorized: "目前您的狀態是未授權，請前往設定頁面輸入授權碼或API KEY。如果你沒有 API KEY，可以加微信購買 532234600 ",
+    Unauthorized: "如需開展對話，請點擊左下角[設置](/#/settings)按鈕輸入訪問密碼或者填寫API KEY。可點擊左側二維碼獲取免費密碼。如需要部署同款網站，聯繫微信：532234600",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 條對話`,
